@@ -10,9 +10,30 @@
 //console.log ('Happy New Yaer!');
 
 //while loop
-let count = 1;
+//let count = 1;
 
-while (count < 10){
-    console.log ('This is is a while loop');
-    count = count + 1;
+//while (count < 10){
+    //console.log ('This is is a while loop');
+    //count = count + 1;
+//}
+
+while (true){
+//INPUT
+
+let number = Number  prompt ("Type in a number\n type 'close' to end the programe");
+let message = '';
+
+if (number === 'close'){
+    break;
+}
+
+// PROCESSING
+if ( number % 2 === 0){
+   message = 'This is an even number';
+}  else {
+    message = 'This is an odd number';
+}
+
+// OUTPUT
+alert (message);
 }
