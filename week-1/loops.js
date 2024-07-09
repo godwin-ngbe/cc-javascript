@@ -20,7 +20,7 @@
 while (true){
 //INPUT
 
-let number = Number  prompt ("Type in a number\n type 'close' to end the programe");
+let number = prompt("Type in a number\n type 'close' to end the programe");
 let message = '';
 
 if (number === 'close'){
